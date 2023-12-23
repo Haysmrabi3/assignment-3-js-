@@ -1,0 +1,48 @@
+body {
+    background-color: #F7ECDE;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 38%;
+    width: 24%;
+    height: 35%;
+    background-color:#FEC260;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+h1:hover::before{
+    height: 65%; 
+}
+
+.inputs {
+    border-block: dotted 2px;
+}
+
+h2 {
+    background: linear-gradient(to right , #0d2504, #fffb00);
+    background-clip: text;
+    color: transparent;
+}
+
+.sub-btn {
+    background-color:#f38b36;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.sub-btn:hover {
+    background-color: #d36002;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div>
+    <div class="container">
+        <div class="title text-center m-5 position-relative">
+            <h1>BookMarker</h1>
+        </div>
+        <div class=" inputs  p-1 my-5">
+            <h2 class="text-center mt-5"><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+            <div class="inp1">
+                <label for="input1"> <i class="fa-solid fa-book-bookmark"></i> Site Name</label>
+                <input id="input1" class="form-control w-100" type="text">
+            </div>
+            <div class="inp2 my-4">
+                <label for="input2"> <i class="fa-solid fa-link"></i>Site URL</label>
+                <input id="input2" class="form-control w-100" type="text">
+            </div>
+            <div class="text-center">
+                <button onclick="addSite()" class="sub-btn my-3">submit</button>
+            </div>
+        </div>
+        <table class="table text-center">
+            <tr>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </tr>
+            <tbody id="tableBody">
+                    
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
